@@ -1,0 +1,52 @@
+.current {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+li {
+  list-style: none;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.higher-temp {
+  font-weight: bold;
+}
+.units {
+  font-size: 15px;
+  position: relative;
+  top: -20px;
+  left: 5px;
+}
+#celcius-link,
+#fahrenheit-link {
+  text-decoration: none;
+  color: rgb(54, 52, 52);
+}
+.cloud-showers-heavy {
+  color: #00aaa0;
+  font-size: 60px;
+  padding: 10px 0;
+}
+.cloud-rain {
+  color: #8ed2c9;
+  font-size: 40px;
+}
+.cloud {
+  color: #e0ebeb;
+  font-size: 40px;
+}
+.sun {
+  color: #fda403;
+  font-size: 40px;
+}
+
+.weather-app {
+  border: 1px solid #ececec;
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 15px;
+}
