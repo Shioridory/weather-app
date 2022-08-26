@@ -20,6 +20,7 @@
   </head>
   <body>
    
+      <div class="weather-app-wrapper">
       <div class="weather-app">
         <div class="search-weather">
           <form>
@@ -53,8 +54,8 @@
 
         <div class="current">
           <h1 id="current-city"></h1>
-          <h4 id="current-day-time">
-            Saturday 20:42
+          <h4 id="currnt-day-time">
+            Last updated: <span id="current-day-time"></span>
           </h4>
           <div class="row">
             <div class="col-6">
@@ -62,7 +63,8 @@
                 class="fa-solid fa-cloud-showers-heavy cloud-showers-heavy"
               ></i>
               <h5><span id="description"></span></h5>
-              <h3><span class="temp" id="temp"></span> <span class="units"> °C</a> </span> 
+              
+              <h3><span class="temp" id="temp"></span> <span class="units"> °C | °F</a> </span> 
             </div>
 
             <div class="col-6">
@@ -112,9 +114,11 @@
             <span class="higher-temp">32℃</span>/26℃
           </div>
         </div>
+        
       </div>
+      <h6 class="coder"><a href="https://github.com/Shioridory/weather-app">Open-source code</a> by Shiori Saeki.</h6>
     </div>
-    <h6 class="coder"><a href="https://github.com/Shioridory/weather-app">Open-source code</a>by Shiori Saeki.</h6> 
+   
    
     <script src="src/script.js"></script>
   </body>

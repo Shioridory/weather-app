@@ -46,11 +46,11 @@ li {
 .weather-app {
   border: 1px solid #ececec;
   padding: 30px;
-  margin: 20px auto;
-  max-width: 800px;
+
   border-radius: 15px;
 }
 
-.coder {
-  margin: 10px 50px 20px 250px;
+.weather-app-wrapper {
+  margin: 30px auto;
+  max-width: 800px;
 }
