@@ -7,6 +7,7 @@
 li {
   list-style: none;
   font-size: 16px;
+
   margin: 0;
   padding: 0;
 }
@@ -16,6 +17,7 @@ li {
 }
 .units {
   font-size: 15px;
+
   position: relative;
   top: -20px;
   left: 5px;
@@ -48,9 +50,11 @@ li {
   padding: 30px;
   border-radius: 15px;
   background-color: peachpuff;
+  font-family: "Readex Pro", sans-serif;
 }
 
 .weather-app-wrapper {
   margin: 30px auto;
   max-width: 800px;
+  font-family: "Readex Pro", sans-serif;
 }
