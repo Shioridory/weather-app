@@ -83,7 +83,7 @@ currentLocationButton.addEventListener("click", getCurrentLocation);
 
 function changeBackgroundColor(description) {
   if (description === "clear sky") {
-    document.querySelector(".weather-app").style.background = "##FFD774";
+    document.querySelector(".weather-app").style.background = "#FFD774";
   } else if (description === "few clouds") {
     document.querySelector(".weather-app").style.background = "#92B3C2";
   } else if (description === "scattered clouds") {
@@ -115,27 +115,27 @@ function changeBackgroundColor(description) {
   } else if (description === "mist") {
     document.querySelector(".weather-app").style.background = "#C3D6DB";
   } else if (description === "light snow") {
-    document.querySelector(".weather-app").style.background = "#fff";
+    document.querySelector(".weather-app").style.background = "#ffffff";
   } else if (description === "Snow") {
-    document.querySelector(".weather-app").style.background = "#fff";
+    document.querySelector(".weather-app").style.background = "#ffffff";
   } else if (description === "Heavt snow") {
-    document.querySelector(".weather-app").style.background = "#fff";
+    document.querySelector(".weather-app").style.background = "#ffffff";
   } else if (description === "Sleet") {
-    document.querySelector(".weather-app").style.background = "#fff";
+    document.querySelector(".weather-app").style.background = "#ffffff";
   } else if (description === "Light shower sleet") {
     document.querySelector(".weather-app").style.background = "#fff";
   } else if (description === "Shower sleet") {
-    document.querySelector(".weather-app").style.background = "#fff";
+    document.querySelector(".weather-app").style.background = "#ffffff";
   } else if (description === "Light rain and snow") {
-    document.querySelector(".weather-app").style.background = "#fff";
+    document.querySelector(".weather-app").style.background = "#ffffff";
   } else if (description === "Rain and snow") {
-    document.querySelector(".weather-app").style.background = "#fff";
+    document.querySelector(".weather-app").style.background = "#ffffff";
   } else if (description === "Light shower snow") {
-    document.querySelector(".weather-app").style.background = "#fff";
+    document.querySelector(".weather-app").style.background = "#ffffff";
   } else if (description === "Shower snow") {
-    document.querySelector(".weather-app").style.background = "#fff";
+    document.querySelector(".weather-app").style.background = "#ffffff";
   } else if (description === "Heavy shower snow") {
-    document.querySelector(".weather-app").style.background = "#fff";
+    document.querySelector(".weather-app").style.background = "#ffffff";
   } else if (description === "fog") {
     document.querySelector(".weather-app").style.background = "#BBC4C2";
   } else if (description === "light intensity drizzle") {
