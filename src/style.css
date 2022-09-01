@@ -46,8 +46,8 @@ li {
 .weather-app {
   border: 1px solid #ececec;
   padding: 30px;
-
   border-radius: 15px;
+  background-color: peachpuff;
 }
 
 .weather-app-wrapper {
