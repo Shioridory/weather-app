@@ -116,7 +116,7 @@ celsiuslink.addEventListener("click", showCelsiusTemperature);
 
 function changeBackgroundColor(description) {
   if (description === "clear sky") {
-    document.querySelector(".weather-app").style.background = "#FFD774";
+    document.querySelector(".weather-app").style.background = "#fcf4d9";
   } else if (description === "few clouds") {
     document.querySelector(".weather-app").style.background = "#92B3C2";
   } else if (description === "scattered clouds") {
