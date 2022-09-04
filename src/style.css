@@ -12,9 +12,6 @@ li {
   padding: 0;
 }
 
-.higher-temp {
-  font-weight: bold;
-}
 .units {
   font-size: 15px;
 
@@ -27,23 +24,6 @@ li {
   text-decoration: none;
   color: rgb(54, 52, 52);
 }
-.cloud-showers-heavy {
-  color: #00aaa0;
-  font-size: 60px;
-  padding: 10px 0;
-}
-.cloud-rain {
-  color: #8ed2c9;
-  font-size: 40px;
-}
-.cloud {
-  color: #e0ebeb;
-  font-size: 40px;
-}
-.sun {
-  color: #fda403;
-  font-size: 40px;
-}
 
 .weather-app {
   border: 1px solid #ececec;
@@ -53,6 +33,23 @@ li {
   font-family: "Readex Pro", sans-serif;
 }
 
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temp {
+  font-size: 13px;
+}
+
+.weather-forecast-low-temp {
+  opacity: 0.5;
+}
 .weather-app-wrapper {
   margin: 30px auto;
   max-width: 800px;
