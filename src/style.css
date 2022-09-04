@@ -58,3 +58,12 @@ li {
   max-width: 800px;
   font-family: "Readex Pro", sans-serif;
 }
+
+.weather-app .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather-app .active:hover {
+  text-decoration: none;
+}
