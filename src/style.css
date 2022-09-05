@@ -20,6 +20,15 @@ li {
   left: 5px;
 }
 
+.temp {
+  font-size: 35px;
+}
+
+.description {
+  text-transform: lowercase;
+  font-size: 30px;
+}
+
 .weather-app {
   border: 1px solid #ececec;
   padding: 30px;
