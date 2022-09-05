@@ -19,11 +19,6 @@ li {
   top: -20px;
   left: 5px;
 }
-#celcius-link,
-#fahrenheit-link {
-  text-decoration: none;
-  color: rgb(54, 52, 52);
-}
 
 .weather-app {
   border: 1px solid #ececec;
